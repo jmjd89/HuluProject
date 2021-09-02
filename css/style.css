@@ -32,6 +32,18 @@ img{
 .header{
     height: 530px;
     /*search information about*/
-    background: url(../img/header.jpg) no-repeat center center / cover; 
-    
+    background: url(../img/header.jpg) no-repeat center center / cover;  
 }
+
+.header nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px;
+}
+
+.header .logo{
+    width: 270px;
+    margin: 20px 0;
+}
+
+
